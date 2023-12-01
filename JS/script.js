@@ -21,15 +21,15 @@ if(play == 3){
 }
  function cardsMove(){ 
  let image = document.createElement("img");
- image.src = "For work.jfif";  
+ image.src = "./css/For work.jfif";  
   card1.appendChild(image);
  let image1 = document.createElement("img");
- image1.src = "For work(2).jfif"; 
+ image1.src = "./css/For work(2).jfif"; 
  card2.appendChild(image1);
  let image2 = document.createElement("img");
- image2.src = "For work(3).jfif"; 
+ image2.src = "./css/For work(3).jfif"; 
   let image3 = document.createElement("img");
- image3.src = "For work(4).webp";
+ image3.src = "./css/For work(4).webp";
   let cards = [ image, image1, image2, image3];  
  let number = Math.floor(Math.random() * 4);
 if(number == 1){ 
